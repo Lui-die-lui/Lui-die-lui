@@ -6,7 +6,7 @@
 
 <!-- intro -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=FFFFFF&center=true&vCenter=true&width=420&lines=Fl%C3%B6tistin+%26+angehende+Entwicklerin;HI.;Welcome+to+my+space."/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=FFFFFF&center=true&vCenter=true&width=420&lines=Fl%C3%B6tistin+%26+angehende+Entwicklerin;HI."/>
 </p>
 
 <p align="center">
