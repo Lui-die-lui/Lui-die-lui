@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="https://media.tenor.com/dK4QiMaDZrAAAAAj/cat-pixel-cat.gif" width="200px" alt="pixel-cat"/>
+  <img src="https://media.tenor.com/dK4QiMaDZrAAAAAj/cat-pixel-cat.gif" width="150px" alt="pixel-cat"/>
 </p>
 
 ---
@@ -35,6 +35,17 @@
 ![TypeScript](https://img.shields.io/badge/-TS-555555?logo=typescript&logoColor=3178C6)
 ![GitHub](https://img.shields.io/badge/-GitHub-555555?logo=github&logoColor=white)
 ![Notion](https://img.shields.io/badge/-Notion-555555?logo=notion&logoColor=white)
+<p align="center">
+  <img 
+    src="https://github-readme-stats.vercel.app/api?username=Lui-die-lui&show_icons=true&theme=dark&hide_border=true" 
+    alt="Seul Gi's GitHub stats" 
+    height="150"/>
+  &nbsp;
+  <img 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lui-die-lui&layout=compact&theme=dark&hide_border=true" 
+    alt="Top Langs" 
+    height="150"/>
+</p>
 
 ---
 
