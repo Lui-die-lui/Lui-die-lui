@@ -70,6 +70,7 @@
     src="https://github-readme-stats.vercel.app/api?username=Lui-die-lui&show_icons=true&theme=dark&hide_border=true" 
     alt="Seul Gi's GitHub stats" 
     height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Lui-die-lui&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true" height="150"/>
   &nbsp;
   <img 
     src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lui-die-lui&layout=compact&theme=dark&hide_border=true" 
