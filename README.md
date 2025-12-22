@@ -29,7 +29,7 @@
 ![Java](https://img.shields.io/badge/-Java-555555?logo=java&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/-SpringBoot-555555?logo=springboot&logoColor=6DB33F)
 ![MySQL](https://img.shields.io/badge/-MySQL-555555?logo=mysql&logoColor=white)
-![HeidiSQL](https://img.shields.io/badge/-Notion-555555?logo=heidisql&logoColor=white)
+![HeidiSQL](https://img.shields.io/badge/-HeidiSQL-555555?logo=heidisql&logoColor=white)
 ![HTML5](https://img.shields.io/badge/-HTML5-555555?logo=html5&logoColor=E34F26)
 ![CSS3](https://img.shields.io/badge/-CSS3-555555?logo=css3&logoColor=1572B6)
 ![JavaScript](https://img.shields.io/badge/-JS-555555?logo=javascript&logoColor=F7DF1E)
