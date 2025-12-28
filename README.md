@@ -66,7 +66,7 @@
 ![Adobe Illustrator](https://img.shields.io/badge/-Illustrator-555555?logo=adobeillustrator&logoColor=FF9A00)
 ![Canva](https://img.shields.io/badge/-Canva-555555?logo=canva&logoColor=00C4CC)
 <p align="center">
-     <img 
+  <img 
     src="https://github-readme-stats.vercel.app/api?username=Lui-die-lui&show_icons=true&theme=dark&hide_border=true" 
     alt="Seul Gi's GitHub stats" 
     height="150"/>
@@ -76,7 +76,6 @@
     alt="Top Langs" 
     height="150"/>
 </p>
->
 
 ---
 
