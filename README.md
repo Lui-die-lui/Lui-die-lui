@@ -77,10 +77,7 @@
     height="150"/>
 </p>
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Lui-die-lui&&show_icons=true&theme=buefy)
 
-<!-- 변경 -->
-![Anurag's GitHub stats](https://github-readme-stats-chaemin-l.vercel.app/api?username=username=Lui-die-lui&&show_icons=true&theme=buefy)
 
 ---
 
