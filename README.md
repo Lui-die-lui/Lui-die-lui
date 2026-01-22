@@ -9,8 +9,12 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=FFFFFF&center=true&vCenter=true&width=420&lines=Fl%C3%B6tistin+%26+angehende+Entwicklerin;HI."/>
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://media.tenor.com/dK4QiMaDZrAAAAAj/cat-pixel-cat.gif" width="150px" alt="pixel-cat"/>
+</p> -->
+
+<p align="center">
+  <img src="https://media1.giphy.com/media/i2tLw5ZyikSFdkeGHT/giphy.gif" width="150" alt="potal"/>
 </p>
 
 
