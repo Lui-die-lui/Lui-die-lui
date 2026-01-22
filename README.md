@@ -13,7 +13,6 @@
   <img src="https://media.tenor.com/dK4QiMaDZrAAAAAj/cat-pixel-cat.gif" width="150px" alt="pixel-cat"/>
 </p>
 
-<iframe src="https://giphy.com/embed/i2tLw5ZyikSFdkeGHT" width="480" height="480" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/stickers/adultswim-emoji-i2tLw5ZyikSFdkeGHT">via GIPHY</a></p>
 
 ---
 
