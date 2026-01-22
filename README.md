@@ -13,6 +13,10 @@
   <img src="https://media.tenor.com/dK4QiMaDZrAAAAAj/cat-pixel-cat.gif" width="150px" alt="pixel-cat"/>
 </p>
 
+<p align="center">
+  <img src="[https://media.tenor.com/dK4QiMaDZrAAAAAj/cat-pixel-cat.gif](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGR6Zjhrbmo1bHkxcG9wNGsxNDFhdHVuOHd4aWx6OHlkOHByeHVwMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/i2tLw5ZyikSFdkeGHT/giphy.gif)" width="150px" alt="pixel-cat"/>
+</p>
+
 ---
 
 ### 💭 about me
