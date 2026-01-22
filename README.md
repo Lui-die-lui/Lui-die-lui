@@ -13,10 +13,12 @@
   <img src="https://media.tenor.com/dK4QiMaDZrAAAAAj/cat-pixel-cat.gif" width="150px" alt="pixel-cat"/>
 </p> -->
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://media1.giphy.com/media/i2tLw5ZyikSFdkeGHT/giphy.gif" width="150" alt="potal"/>
+</p> -->
+<p align="center">
+  <img src="https://media1.giphy.com/media/gJ2TzwqdRoKoZ0KWhW/giphy.gif" width="150" alt="giphy-cat2"/>
 </p>
-
 
 ---
 
