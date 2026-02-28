@@ -37,7 +37,6 @@
 ![Spring Boot](https://img.shields.io/badge/-SpringBoot-555555?logo=springboot&logoColor=6DB33F)
 ![Spring Security](https://img.shields.io/badge/-Spring%20Security-555555?logo=springsecurity&logoColor=6DB33F)
 ![Spring Data JPA](https://img.shields.io/badge/-Spring%20Data%20JPA-555555?logo=spring&logoColor=6DB33F)
-![Hibernate](https://img.shields.io/badge/-Hibernate-555555?logo=hibernate&logoColor=white)
 ![MyBatis](https://img.shields.io/badge/-MyBatis-555555?logoColor=white)
 
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-555555?logo=postgresql&logoColor=white)
