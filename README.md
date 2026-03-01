@@ -76,10 +76,10 @@
   src="https://github-readme-stats-three-tau-18.vercel.app/api?username=Lui-die-lui&show_icons=true&theme=dark&hide_border=true&v=2" 
   height="150"/>
 &nbsp;
-<img 
+<!-- <img 
   src="https://github-readme-stats-three-tau-18.vercel.app/api/top-langs/?username=Lui-die-lui&layout=compact&theme=dark&hide_border=true&v=2" 
   height="150"/>
-</p>
+</p> -->
 
 
 
