@@ -83,7 +83,11 @@
   />
 </p> -->
 
-
+<p align="center">
+  <img src="./assets/github-stats.svg" height="150" alt="GitHub Stats" />
+  &nbsp;
+  <img src="./assets/top-langs.svg" height="150" alt="Top Languages" />
+</p>
 
 ---
 
