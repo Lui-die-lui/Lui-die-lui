@@ -23,12 +23,12 @@ jobs:
       - name: Ensure assets dir
         run: mkdir -p assets
 
-      - name: Download stats card (retry + validate svg)
+      - name: Download stats card (retry + ensure svg)
         run: |
           set -e
           tmp="assets/.github-stats.tmp.svg"
           url="https://github-readme-stats.vercel.app/api?username=Lui-die-lui&show_icons=true&theme=dark&hide_border=true&cache_seconds=21600"
-
+      
           for i in 1 2 3 4 5; do
             echo "Stats attempt $i..."
             if curl -fsSL "$url" -o "$tmp"; then
@@ -39,16 +39,17 @@ jobs:
             fi
             sleep $((i * 15))
           done
-
-          echo "Failed to fetch a valid stats SVG after retries."
-          exit 1
+      
+          echo "No valid SVG. Keeping existing file."
+          rm -f "$tmp"
+          exit 0
 
       - name: Download top langs card (retry + validate svg)
         run: |
           set -e
           tmp="assets/.top-langs.tmp.svg"
           url="https://github-readme-stats.vercel.app/api/top-langs/?username=Lui-die-lui&layout=compact&theme=dark&hide_border=true&cache_seconds=21600"
-
+      
           for i in 1 2 3 4 5; do
             echo "Langs attempt $i..."
             if curl -fsSL "$url" -o "$tmp"; then
@@ -59,9 +60,10 @@ jobs:
             fi
             sleep $((i * 15))
           done
-
-          echo "Failed to fetch a valid top-langs SVG after retries."
-          exit 1
+      
+          echo "No valid SVG. Keeping existing file."
+          rm -f "$tmp"
+          exit 0
 
       - name: Commit and push if changed (rebase-safe)
         run: |
