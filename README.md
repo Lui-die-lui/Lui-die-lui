@@ -71,17 +71,7 @@
 ![Adobe Photoshop](https://img.shields.io/badge/-Photoshop-555555?logo=adobephotoshop&logoColor=31A8FF)
 ![Adobe Illustrator](https://img.shields.io/badge/-Illustrator-555555?logo=adobeillustrator&logoColor=FF9A00)
 ![Canva](https://img.shields.io/badge/-Canva-555555?logo=canva&logoColor=00C4CC)
-<!-- <p align="center">
-  <img 
-    src="https://github-readme-stats.vercel.app/api?username=Lui-die-lui&show_icons=true&theme=dark&hide_border=true&cache_seconds=21600" 
-    height="150"
-  />
-  &nbsp;
-  <img 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lui-die-lui&layout=compact&theme=dark&hide_border=true&cache_seconds=21600" 
-    height="150"
-  />
-</p> -->
+
 
 <p align="center">
   <img src="./assets/github-stats.svg" height="150" alt="GitHub Stats" />
