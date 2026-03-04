@@ -73,12 +73,14 @@
 ![Canva](https://img.shields.io/badge/-Canva-555555?logo=canva&logoColor=00C4CC)
 <p align="center">
   <img 
-  src="https://github-readme-stats.vercel.app/api?username=Lui-die-lui&show_icons=true&theme=dark&hide_border=true&cache_seconds=21600" 
-  height="150"/>
-&nbsp;
-<img 
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lui-die-lui&layout=compact&theme=dark&hide_border=true&cache_seconds=21600" 
-  height="150"/>
+    src="https://github-readme-stats.vercel.app/api?username=Lui-die-lui&show_icons=true&theme=dark&hide_border=true&cache_seconds=21600" 
+    height="150"
+  />
+  &nbsp;
+  <img 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lui-die-lui&layout=compact&theme=dark&hide_border=true&cache_seconds=21600" 
+    height="150"
+  />
 </p>
 
 
