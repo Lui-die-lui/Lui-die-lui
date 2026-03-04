@@ -2,7 +2,7 @@ name: Generate GitHub Stats SVG
 
 on:
   schedule:
-    - cron: "0 0 * * *" # 매일 00:00 UTC (KST 오전 9시)
+    - cron: "0 0 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -12,27 +12,28 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Ensure assets dir
         run: mkdir -p assets
 
-      - name: Download stats card
+      - name: Download stats card (validate svg)
         run: |
-          curl -L \
-            -H "Authorization: Bearer ${{ secrets.GH_STATS_TOKEN }}" \
-            -H "Accept: application/vnd.github+json" \
-            "https://github-readme-stats.vercel.app/api?username=Lui-die-lui&show_icons=true&theme=dark&hide_border=true&cache_seconds=21600" \
-            -o assets/github-stats.svg
+          set -e
+          tmp="assets/.github-stats.tmp.svg"
+          url="https://github-readme-stats.vercel.app/api?username=Lui-die-lui&show_icons=true&theme=dark&hide_border=true&cache_seconds=21600"
+          curl -fsSL "$url" -o "$tmp"
+          grep -q "<svg" "$tmp"
+          mv "$tmp" "assets/github-stats.svg"
 
-      - name: Download top langs card
+      - name: Download top langs card (validate svg)
         run: |
-          curl -L \
-            -H "Authorization: Bearer ${{ secrets.GH_STATS_TOKEN }}" \
-            -H "Accept: application/vnd.github+json" \
-            "https://github-readme-stats.vercel.app/api/top-langs/?username=Lui-die-lui&layout=compact&theme=dark&hide_border=true&cache_seconds=21600" \
-            -o assets/top-langs.svg
+          set -e
+          tmp="assets/.top-langs.tmp.svg"
+          url="https://github-readme-stats.vercel.app/api/top-langs/?username=Lui-die-lui&layout=compact&theme=dark&hide_border=true&cache_seconds=21600"
+          curl -fsSL "$url" -o "$tmp"
+          grep -q "<svg" "$tmp"
+          mv "$tmp" "assets/top-langs.svg"
 
       - name: Commit and push if changed
         run: |
