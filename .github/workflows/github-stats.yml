@@ -2,8 +2,12 @@ name: Generate GitHub Stats SVG
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *" # 매일 00:00 UTC (KST 오전 9시)
   workflow_dispatch: {}
+
+concurrency:
+  group: github-stats-svg
+  cancel-in-progress: true
 
 permissions:
   contents: write
@@ -13,32 +17,63 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # rebase 하려면 히스토리 필요
 
       - name: Ensure assets dir
         run: mkdir -p assets
 
-      - name: Download stats card (validate svg)
+      - name: Download stats card (retry + validate svg)
         run: |
           set -e
           tmp="assets/.github-stats.tmp.svg"
           url="https://github-readme-stats.vercel.app/api?username=Lui-die-lui&show_icons=true&theme=dark&hide_border=true&cache_seconds=21600"
-          curl -fsSL "$url" -o "$tmp"
-          grep -q "<svg" "$tmp"
-          mv "$tmp" "assets/github-stats.svg"
 
-      - name: Download top langs card (validate svg)
+          for i in 1 2 3 4 5; do
+            echo "Stats attempt $i..."
+            if curl -fsSL "$url" -o "$tmp"; then
+              if grep -q "<svg" "$tmp"; then
+                mv "$tmp" "assets/github-stats.svg"
+                exit 0
+              fi
+            fi
+            sleep $((i * 15))
+          done
+
+          echo "Failed to fetch a valid stats SVG after retries."
+          exit 1
+
+      - name: Download top langs card (retry + validate svg)
         run: |
           set -e
           tmp="assets/.top-langs.tmp.svg"
           url="https://github-readme-stats.vercel.app/api/top-langs/?username=Lui-die-lui&layout=compact&theme=dark&hide_border=true&cache_seconds=21600"
-          curl -fsSL "$url" -o "$tmp"
-          grep -q "<svg" "$tmp"
-          mv "$tmp" "assets/top-langs.svg"
 
-      - name: Commit and push if changed
+          for i in 1 2 3 4 5; do
+            echo "Langs attempt $i..."
+            if curl -fsSL "$url" -o "$tmp"; then
+              if grep -q "<svg" "$tmp"; then
+                mv "$tmp" "assets/top-langs.svg"
+                exit 0
+              fi
+            fi
+            sleep $((i * 15))
+          done
+
+          echo "Failed to fetch a valid top-langs SVG after retries."
+          exit 1
+
+      - name: Commit and push if changed (rebase-safe)
         run: |
+          set -e
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
           git add assets/github-stats.svg assets/top-langs.svg
-          git diff --cached --quiet || git commit -m "chore: update github stats svgs"
-          git push
+          git diff --cached --quiet && echo "No changes." && exit 0
+
+          git commit -m "chore: update github stats svgs"
+
+          # 원격이 앞서 있으면 rebase로 흡수
+          git pull --rebase origin main
+          git push origin main
