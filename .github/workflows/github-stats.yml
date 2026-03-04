@@ -1,0 +1,43 @@
+name: Generate GitHub Stats SVG
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # 매일 00:00 UTC (KST 오전 9시)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Ensure assets dir
+        run: mkdir -p assets
+
+      - name: Download stats card
+        run: |
+          curl -L \
+            -H "Authorization: Bearer ${{ secrets.GH_STATS_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://github-readme-stats.vercel.app/api?username=Lui-die-lui&show_icons=true&theme=dark&hide_border=true&cache_seconds=21600" \
+            -o assets/github-stats.svg
+
+      - name: Download top langs card
+        run: |
+          curl -L \
+            -H "Authorization: Bearer ${{ secrets.GH_STATS_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=Lui-die-lui&layout=compact&theme=dark&hide_border=true&cache_seconds=21600" \
+            -o assets/top-langs.svg
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/github-stats.svg assets/top-langs.svg
+          git diff --cached --quiet || git commit -m "chore: update github stats svgs"
+          git push
