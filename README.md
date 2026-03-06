@@ -73,12 +73,6 @@
 ![Canva](https://img.shields.io/badge/-Canva-555555?logo=canva&logoColor=00C4CC)
 
 
-<!-- <p align="center">
-  <img src="./assets/github-stats.svg" height="150" alt="GitHub Stats" />
-  &nbsp;
-  <img src="./assets/top-langs.svg" height="150" alt="Top Languages" />
-</p> -->
-
 ---
 
 <p align="center">
