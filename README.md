@@ -76,5 +76,17 @@
 ---
 
 <p align="center">
+  <img
+    height="180em"
+    src="https://github-readme-stats.vercel.app/api?username=lui-die-lui&show_icons=true&theme=github_dark_dimmed&include_all_commits=true&border_radius=10"
+  />
+  <img
+    height="180em"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=lui-die-lui&layout=compact&theme=github_dark_dimmed&langs_count=8&border_radius=10"
+  />
+</p>
+
+
+<p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:555555,100:ffffff&height=100&section=footer&animation=fadeIn"/>
 </p>
