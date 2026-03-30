@@ -75,16 +75,16 @@
 
 ---
 
-<!-- <p align="center">
+ <p align="center">
   <img
     height="180em"
-    src="https://github-readme-stats.vercel.app/api?username=lui-die-lui&show_icons=true&theme=github_dark_dimmed&include_all_commits=true&border_radius=10"
+    src="https://github-readme-stats-sigma-five.vercel.app/api?username=lui-die-lui&show_icons=true&theme=github_dark_dimmed&include_all_commits=true&border_radius=10"
   />
   <img
     height="180em"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=lui-die-lui&layout=compact&theme=github_dark_dimmed&langs_count=8&border_radius=10"
+    src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=lui-die-lui&layout=compact&theme=github_dark_dimmed&langs_count=8&border_radius=10"
   />
-</p> -->
+</p> 
 
 
 <p align="center">
