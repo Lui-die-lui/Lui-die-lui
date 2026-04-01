@@ -83,6 +83,61 @@
 ![Figma](https://img.shields.io/badge/-Figma-555555?logo=figma&logoColor=F24E1E)
 ![Notion](https://img.shields.io/badge/-Notion-555555?logo=notion&logoColor=white)
 
+---
+
+### 🛠 Projects
+<details>
+<summary>🎫 OMIJOY (공연 탐색 · 티켓 정보 플랫폼)[Team Project]</summary>
+  </br>
+  
+- 프론트 구조 및 라우터 흐름을 설계하고, Figma 기반 와이어프레임으로 구현 기준 정리
+  
+- favorite / flag 기능을 서비스 흐름에 맞게 이식하여 탐색 → 저장 → 관리 흐름 개선
+  
+- 좋아요(favorite) 등 사용자 액션마다 즉시 API 요청이 발생하는 문제를 개선하기 위해 지연 저장 방식을 적용하여 네트워크 요청을 최소화
+  
+- Firebase Storage 기반 프로필 이미지 업로드 기능 구현 및 발표 자료 제작
+  
+📌 사용자 흐름과 API 호출 구조를 함께 고려하여, 프론트–데이터 흐름의 효율성과 일관성을 개선
+
+[![Repo](https://img.shields.io/badge/Repo-181717?logo=github&logoColor=white)](https://github.com/Team-OMIJA)
+</details>
+<details>
+<summary>🗺️ Odyssey Plan Studio (5년 오디세이 플랜)</summary>
+</br>
+  
+- 인터뷰 기반으로 5년 목표·요약을 생성하는 Next.js(App Router) + TypeScript 웹앱
+  
+- OpenAI를 활용한 초안 생성 및 쿼터 관리, 관리자 제어 기능 구현
+  
+- Prisma + PostgreSQL 기반 플랜 저장, NextAuth 인증, PDF 생성 기능 구현
+  
+- 관리자 대시보드(통계·트렌드·유저·AI 제어) 및 계정 탈퇴 유예 처리
+
+📌 AI 생성 흐름과 사용자 플랜 구조를 통합하여 입력 → 생성 → 저장까지의 전체 흐름을 안정적으로 설계
+
+[![Repo](https://img.shields.io/badge/Repo-181717?logo=github&logoColor=white)](https://github.com/Lui-die-lui/odyssey-plan-studio)
+[![Live](https://img.shields.io/badge/Live-2E3F66?logo=vercel&logoColor=white)](https://odyssey-plan-studio-vzqt.vercel.app)
+</details>
+
+<details>
+<summary>🎵 MUZIN (레슨 매칭 플랫폼) [In Progress]</summary>
+</br>
+  
+- 레슨 예약 및 매칭을 위한 상태 기반 서비스 설계 및 구현
+  
+- 예약 상태 흐름(REQUESTED → CONFIRMED → COMPLETED) 중심 도메인 구조 설계
+  
+- QueryDSL을 활용한 동적 검색 기능 및 필터 확장 구조 구현
+  
+- 타임슬롯 기반 예약 시스템 설계 및 동시성 문제 대응
+  
+- React Query + Zustand를 활용한 서버 상태 / UI 상태 분리
+
+📌 상태 기반 도메인 설계와 타임슬롯 구조를 통해 예약 흐름과 데이터 정합성을 안정적으로 유지하도록 구현
+
+[![Repo](https://img.shields.io/badge/Repo-181717?logo=github&logoColor=white)](https://github.com/Lui-die-lui/MU-ZIN_frontend)
+</details>
 
 ---
 
