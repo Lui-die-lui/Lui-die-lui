@@ -86,6 +86,29 @@
 ---
 
 ### 🛠 Projects
+
+<details>
+  <summary>🗂️ Lui Archive (개인 포트폴리오 웹사이트)</summary>
+</br>
+  
+  - 소개 · 기술 · 프로젝트 · 학습 이력을 한 화면에서 탐색할 수 있도록 구성한 Next.js 기반 포트폴리오 웹사이트
+
+  - 섹션 단위 컴포넌트 구조와 앵커(#) 내비게이션을 통해 정보 흐름과 가독성을 고려한 화면 구조 설계
+
+  - PostgreSQL + Prisma 기반으로 프로젝트·자격증·방명록 데이터를 관리하고, 인증된 관리자만 수정할 수 있도록 운영 구조 분리
+
+  - Firebase Authentication / Admin을 활용해 관리자 전용 접근 제어를 적용하고, Firebase Storage 기반 콘텐츠 업로드 구조 구현
+
+  - GitHub README / Live 링크 연결, 프로젝트 카드 정보 분리, 방명록 및 관리자 대시보드 등 포트폴리오를 하나의 서비스처럼 확장 가능하게 설계
+
+  - AI-assisted development (Cursor AI 활용)
+
+  📌 화면 구성뿐 아니라 정보 구조, 운영 편의성, 관리자 권한 분리까지 함께 고려하여 포트폴리오를 실제 관리 가능한 웹 서비스 형태로 구현
+
+  [![Repo](https://img.shields.io/badge/Repo-181717?logo=github&logoColor=white)](https://github.com/Lui-die-lui/lui-archive)
+  [![Live](https://img.shields.io/badge/Live-2E3F66?logo=vercel&logoColor=white)](https://lui-archive.vercel.app)
+</details>
+
 <details>
 <summary>🎫 OMIJOY (공연 탐색 · 티켓 정보 플랫폼)[Team Project]</summary>
   </br>
@@ -102,8 +125,10 @@
 
 [![Repo](https://img.shields.io/badge/Repo-181717?logo=github&logoColor=white)](https://github.com/Team-OMIJA)
 </details>
+
 <details>
 <summary>🗺️ Odyssey Plan Studio (5년 오디세이 플랜)</summary>
+ - Built with Cursor AI assistance
 </br>
   
 - 인터뷰 기반으로 5년 목표·요약을 생성하는 Next.js(App Router) + TypeScript 웹앱
@@ -113,6 +138,8 @@
 - Prisma + PostgreSQL 기반 플랜 저장, NextAuth 인증, PDF 생성 기능 구현
   
 - 관리자 대시보드(통계·트렌드·유저·AI 제어) 및 계정 탈퇴 유예 처리
+
+- AI-assisted development (Cursor AI 활용)
 
 📌 AI 생성 흐름과 사용자 플랜 구조를 통합하여 입력 → 생성 → 저장까지의 전체 흐름을 안정적으로 설계
 
