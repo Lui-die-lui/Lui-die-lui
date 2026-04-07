@@ -128,7 +128,7 @@
 
 <details>
 <summary>🗺️ Odyssey Plan Studio (5년 오디세이 플랜)</summary>
- - Built with Cursor AI assistance
+
 </br>
   
 - 인터뷰 기반으로 5년 목표·요약을 생성하는 Next.js(App Router) + TypeScript 웹앱
