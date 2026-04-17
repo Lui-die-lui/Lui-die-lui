@@ -59,6 +59,7 @@
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-555555?logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/-MySQL-555555?logo=mysql&logoColor=white)
 ![MariaDB](https://img.shields.io/badge/-MariaDB-555555?logo=mariadb&logoColor=white)
+![Prisma ORM](https://img.shields.io/badge/-Prisma-555555?logo=prisma&logoColor=white)
 
 
 #### 🔐 Auth
