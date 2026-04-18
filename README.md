@@ -162,6 +162,8 @@
   
 - React Query + Zustand를 활용한 서버 상태 / UI 상태 분리
 
+- 대표 활동 지역과 서비스 가능 지역 분리 설계 및 다음 주소 검색 API 연동을 통한 아티스트 프로필 지역 입력/수정 기능 구현
+
 📌 상태 기반 도메인 설계와 타임슬롯 구조를 통해 예약 흐름과 데이터 정합성을 안정적으로 유지하도록 구현
 
 [![Repo](https://img.shields.io/badge/Repo-181717?logo=github&logoColor=white)](https://github.com/Lui-die-lui/MU-ZIN_frontend)
