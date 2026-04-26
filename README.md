@@ -89,7 +89,7 @@
 ### 🛠 Projects
 
 <details>
-  <summary>🗂️ Lui Archive (개인 포트폴리오 웹사이트)</summary>
+  <summary>🗂️ Lui Archive (개인 포트폴리오)</summary>
 </br>
   
   - 소개 · 기술 · 프로젝트 · 학습 이력을 한 화면에서 탐색할 수 있도록 구성한 Next.js 기반 포트폴리오 웹사이트
