@@ -128,7 +128,7 @@
 </details>
 
 <details>
-<summary>🗺️ Odyssey Plan Studio (5년 오디세이 플랜)</summary>
+<summary>🗺️ Odyssey Plan Studio (5년 오디세이 플랜 작성 서비스)</summary>
 
 </br>
   
