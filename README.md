@@ -61,6 +61,10 @@
 ![MariaDB](https://img.shields.io/badge/-MariaDB-555555?logo=mariadb&logoColor=white)
 ![Prisma ORM](https://img.shields.io/badge/-Prisma-555555?logo=prisma&logoColor=white)
 
+#### 📊 Data & ML
+![Python](https://img.shields.io/badge/-Python-555555?logo=python&logoColor=3776AB)
+![Pandas](https://img.shields.io/badge/-Pandas-555555?logo=pandas&logoColor=150458)
+![Scikit-learn](https://img.shields.io/badge/-Scikit--learn-555555?logo=scikitlearn&logoColor=F7931E)
 
 #### 🔐 Auth
 
