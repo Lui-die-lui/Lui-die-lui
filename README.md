@@ -177,7 +177,7 @@
 
 ### 📊 GitHub Activity
 
- <p align="center">
+ <!-- <p align="center">
   <img
     height="180em"
     src="https://github-readme-stats-sigma-five.vercel.app/api?username=lui-die-lui&show_icons=true&theme=tokyonight&include_all_commits=true&border_radius=10"
@@ -186,7 +186,7 @@
     height="180em"
     src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=lui-die-lui&layout=compact&theme=tokyonight&langs_count=8&border_radius=10"
   />
-</p> 
+</p> -->
 
 <div align="center">
   <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
@@ -197,7 +197,6 @@
     />
   </a>
 </div>
-
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:555555,100:ffffff&height=100&section=footer&animation=fadeIn"/>
