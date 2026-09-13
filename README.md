@@ -175,7 +175,7 @@
 
 ---
 
-### 📊 GitHub Activity
+<!-- ### 📊 GitHub Activity -->
 
  <!-- <p align="center">
   <img
@@ -188,7 +188,7 @@
   />
 </p> -->
 
-<div align="center">
+<!-- <div align="center">
   <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
     <img
       src="https://github-readme-activity-graph.vercel.app/graph?username=lui-die-lui&theme=tokyo-night&hide_border=true&area=true"
@@ -196,7 +196,7 @@
       width="830"
     />
   </a>
-</div>
+</div> -->
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:555555,100:ffffff&height=100&section=footer&animation=fadeIn"/>
