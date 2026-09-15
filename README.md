@@ -175,7 +175,7 @@
 
 ---
 
-<!-- ### 📊 GitHub Activity -->
+### 📊 GitHub Activity 
 
  <!-- <p align="center">
   <img
@@ -187,7 +187,9 @@
     src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=lui-die-lui&layout=compact&theme=tokyonight&langs_count=8&border_radius=10"
   />
 </p> -->
-
+<p align="center">
+<img src="https://streak-stats.demolab.com?user=lui-die-lui&theme=tokyonight&hide_border=true" />
+  </p>
 <!-- <div align="center">
   <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
     <img
