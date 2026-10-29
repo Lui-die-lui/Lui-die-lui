@@ -153,7 +153,7 @@
 </details>
 
 <details>
-<summary>🎵 MUZIN (레슨 매칭 플랫폼) [In Progress]</summary>
+<summary>🎵 MUZIN (레슨 매칭 플랫폼)</summary>
 </br>
   
 - 레슨 예약 및 매칭을 위한 상태 기반 서비스 설계 및 구현
@@ -171,6 +171,7 @@
 📌 상태 기반 도메인 설계와 타임슬롯 구조를 통해 예약 흐름과 데이터 정합성을 안정적으로 유지하도록 구현
 
 [![Repo](https://img.shields.io/badge/Repo-181717?logo=github&logoColor=white)](https://github.com/Lui-die-lui/MU-ZIN_frontend)
+[![Live](https://img.shields.io/badge/Live-2E3F66?logo=vercel&logoColor=white)](https://mu-zin.com/)
 </details>
 
 ---
